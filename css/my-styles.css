@@ -1,3 +1,88 @@
 @charset "UTF-8";
 /* CSS Document */
+.navbar-nav {
+  margin: 0px -15px;
+}
 
+.navbar-default {
+	background-color: hsla(30,66%,61%,1.00);
+	border-color: hsla(4,71%,29%,1.00);
+}
+
+.navbar-default .navbar-toggle {
+	border-color: #751E1A;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+	background-color: #FCE36D;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #741D19;
+}
+
+.navbar-brand {
+	padding: 5px 15px;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #741D19;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+	color: #C51432;
+	background-color: #FCE36D;
+}
+
+.dropdown-menu > li > a {
+	color: #741D19 !important;
+	padding: 10px;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+	text-decoration: none;
+	background-color: #FCE36D;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #C51432;
+  background-color: #741D19;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #FCE36D;
+  background-color: #741D19;
+}
+
+.dropdown-menu {
+	background-color: hsla(30,67%,62%,1.00);
+	padding: 0px;
+	margin: 0px;
+	-webkit-box-shadow: 0px 0px 12px hsla(351,83%,43%,1.00);
+	box-shadow: 0px 0px 12px hsla(351,83%,43%,1.00);
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+	color: #C51432 !important;
+	background-color: #FCE36D;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  color: #C51432 !important;
+  text-decoration: none;
+  background-color: #FCE36D;
+}
+
+.dropdown-menu .divider {
+	margin: 2px 0;
+	background-color: #741D19;
+}
